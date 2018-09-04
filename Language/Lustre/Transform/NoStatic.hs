@@ -39,6 +39,7 @@ import Data.Map(Map)
 import Data.Foldable(foldl')
 import qualified Data.Map as Map
 import MonadLib
+import Data.Semigroup ( (<>) )
 
 import Language.Lustre.AST
 import qualified Language.Lustre.Semantics.Const as C

@@ -8,6 +8,7 @@ import Text.PrettyPrint hiding ( (<>) )
 import qualified Text.PrettyPrint as PP
 import Numeric(showGFloat)
 import Data.Ratio(numerator,denominator)
+import Data.Semigroup ( (<>) )
 
 import Language.Lustre.AST
 

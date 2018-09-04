@@ -5,6 +5,7 @@ import Data.Set(Set)
 import qualified Data.Set as Set
 import Data.Graph(SCC(..))
 import Data.Graph.SCC(stronglyConnComp)
+import Data.Semigroup ( (<>) )
 
 import Language.Lustre.AST
 

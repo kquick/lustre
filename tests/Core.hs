@@ -6,6 +6,7 @@ import qualified Data.Text as Text
 
 import Data.String
 
+import Language.Lustre.AST
 import Language.Lustre.Core
 
 main :: IO ()
